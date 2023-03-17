@@ -2,16 +2,19 @@
 /**
  * main - Prints the alphabet.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alp[i]);
-	}
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
