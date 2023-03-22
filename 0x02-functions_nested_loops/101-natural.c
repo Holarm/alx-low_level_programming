@@ -15,6 +15,7 @@
 	 */
 
 	int main(void)
+
 	{
 		int i, sum = 0;
 
