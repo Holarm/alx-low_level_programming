@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * _isdigit - check  digits ar4 0 - 9
+ * _isdigit - Check digits are from 0 - 9
  * @c: char to check
- * Retun: 0 or 1
+ * Return: 0 or 1
  */
 
 int _isdigit(int c)
